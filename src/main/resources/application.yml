@@ -1,4 +1,4 @@
-db: jdbc:mysql://localhost:3306/ecar?user=root&password=B3@gl3
+db: jdbc:mysql://localhost:3306/ecar?user=root&password=12345
 #spring:
 #  datasource:
 #    username: 'root'
