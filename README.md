@@ -10,6 +10,14 @@ mvn spring-boot:run
 
 The server will start running exposing a public json API.
 
+
+**C. Database**
+
+The application needs an sql database to store and read its data.
+Specify and connection string in src/resources/aplication.yml configuration file.
+Also, the schema of the database is described in db/ folder.
+
+
 **B. How to use**
  - Register power providers sending the name and the hourly power capacity (24 numbers, power per hour in daily basis)
  ```
